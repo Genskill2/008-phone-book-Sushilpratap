@@ -112,7 +112,7 @@ void print_usage(char *message, char *progname) {
 }
 
 entry *
-create_entry_node(char *name, char *phone) {
+create_entry_node(char *name, int *phone) {
   entry *ret;
   ret = malloc(sizeof(entry));
   strcpy(ret->name, name);
