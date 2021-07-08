@@ -28,7 +28,7 @@ entry load_entries(FILE *);         /* Load all entries from the
 entry create_entry_node(char *, char *);  /* Create a new entry
                                               node. Has to be freed by
                                               user. */
-void free_entries(entry ); / TBD Given the first node of a linked list
+void free_entries(entry ); /* TBD Given the first node of a linked list
                                of entries, will free all the nodes */ 
 
 void write_all_entries(entry ); /* Given the first node of a linked
