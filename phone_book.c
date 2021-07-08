@@ -221,7 +221,6 @@ void list(FILE *db_file) {
  
 }
 
-
 int delete(FILE *db_file, char *name) {
   entry *p = load_entries(db_file);
   entry *base = p;
